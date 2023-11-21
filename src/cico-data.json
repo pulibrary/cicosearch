@@ -1,0 +1,400 @@
+[
+{
+  "@context": {
+    "source": "http://purl.org/dc/elements/1.1/source",
+    "Person": "http://schema.org/Person",
+    "creator": "http://purl.org/dc/elements/1.1/creator",
+    "Organization": "http://schema.org/Organization",
+    "contributor": "http://purl.org/dc/elements/1.1/contributor",
+    "spatial": "http://purl.org/dc/terms/spatial",
+    "temporal": "http://purl.org/dc/terms/temporal",
+    "coverage": "http://purl.org/dc/elements/1.1/coverage",
+    "issued": "http://purl.org/dc/terms/issued",
+    "date": "http://purl.org/dc/elements/1.1/date",
+    "extent": "http://purl.org/dc/terms/extent",
+    "format": "http://purl.org/dc/elements/1.1/format",
+    "identifier": "http://purl.org/dc/elements/1.1/identifier",
+    "URI": "http://purl.org/dc/terms/URI",
+    "iiif": "http://portal.getty.edu/terms/cicognara/iiif",
+    "hasFormat": "http://purl.org/dc/terms/hasFormat",
+    "cicognaraNumber": "http://portal.getty.edu/terms/cicognara/cicognaraNumber",
+    "dclNumber": "http://portal.getty.edu/terms/cicognara/dclNumber",
+    "language": "http://purl.org/dc/elements/1.1/language",
+    "isPartOf": "http://purl.org/dc/terms/isPartOf",
+    "isReferencedBy": "http://purl.org/dc/terms/isReferencedBy",
+    "relation": "http://purl.org/dc/elements/1.1/relation",
+    "LCSH": "http://purl.org/dc/terms/LCSH",
+    "subject": "http://purl.org/dc/elements/1.1/subject",
+    "title": "http://purl.org/dc/elements/1.1/title",
+    "DCMIType": "http://purl.org/dc/terms/DCMIType",
+    "type": "http://purl.org/dc/elements/1.1/type",
+    "publisher": "http://purl.org/dc/elements/1.1/publisher",
+    "virtualCollection": "http://portal.getty.edu/terms/gri/virtualCollection",
+    "grpContributor": "http://portal.getty.edu/terms/gri/grpContributor"
+  },
+  "@id": "http://portal.getty.edu/books/princeton_9985404473506421",
+  "creator": [
+    {
+      "id": [
+        "http://id.loc.gov/authorities/names/n83142490"
+      ],
+      "@type": "Person",
+      "label": "Lanzi, Luigi, -1810."
+    }
+  ],
+  "contributor": [
+    {
+      "id": [
+        "http://id.loc.gov/authorities/names/nr94016468"
+      ],
+      "@type": "Organization",
+      "label": "Fondo Cicognara (Biblioteca apostolica vaticana)"
+    }
+  ],
+  "spatial": [
+    {
+      "value": "Etruria"
+    },
+    {
+      "value": "Italy"
+    }
+  ],
+  "temporal": [
+    {
+      "value": "1989-"
+    }
+  ],
+  "issued": [
+    {
+      "value": "1789"
+    }
+  ],
+  "date": [
+    {
+      "value": "1989-"
+    }
+  ],
+  "extent": [
+    {
+      "value": "2 v. in 3"
+    },
+    {
+      "value": "22 microfiche : positive."
+    }
+  ],
+  "hasFormat": [
+    {
+      "@type": "iiif",
+      "value": "https://figgy.princeton.edu/concern/scanned_resources/2097f0a4-85d8-45db-a420-259b01c1d674/manifest"
+    }
+  ],
+  "identifier": [
+    {
+      "value": "http://portal.getty.edu/books/princeton_9985404473506421",
+      "@type": "URI"
+    },
+    {
+      "@type": "URI",
+      "value": "http://portal.getty.edu/api/n95r3v"
+    },
+    {
+      "@type": "URI",
+      "value": "http://portal.getty.edu/api/8g5m90"
+    },
+    {
+      "@type": "URI",
+      "value": "http://portal.getty.edu/api/pn1k84"
+    },
+    {
+      "@type": "URI",
+      "value": "http://portal.getty.edu/api/4z337j"
+    },
+    {
+      "@type": "URI",
+      "value": "http://portal.getty.edu/api/jj4b2f"
+    },
+    {
+      "@type": "URI",
+      "value": "http://portal.getty.edu/api/m4183c"
+    },
+    {
+      "@type": "cicognaraNumber",
+      "value": "1789"
+    },
+    {
+      "@type": "dclNumber",
+      "value": "f8c"
+    }
+  ],
+  "language": [
+    {
+      "value": "Italian"
+    }
+  ],
+  "isPartOf": [
+    {
+      "value": "Cicognara library."
+    },
+    {
+      "@type": "virtualCollection",
+      "label": "Cicognara Collection"
+    }
+  ],
+  "isReferencedBy": [
+    {
+      "value": "Cicognara, 1789"
+    }
+  ],
+  "subject": [
+    {
+      "@type": "LCSH",
+      "label": "Etruscan language -- Early works to 1800."
+    },
+    {
+      "@type": "LCSH",
+      "label": "Inscriptions, Etruscan -- Early works to 1800."
+    },
+    {
+      "@type": "LCSH",
+      "label": "Sculpture, Greco-Roman -- Early works to 1800."
+    },
+    {
+      "@type": "LCSH",
+      "label": "Etruria -- Antiquities -- Early works to 1800."
+    },
+    {
+      "@type": "LCSH",
+      "label": "Italy -- Antiquities -- Early works to 1800."
+    }
+  ],
+  "title": [
+    {
+      "value": "A River Runs Through It"
+    }
+  ],
+  "type": [
+    {
+      "@type": "DCMIType",
+      "label": "Text"
+    }
+  ],
+  "publisher": [
+    {
+      "value": "In Roma : Nella stamperia Pagliarini"
+    }
+  ],
+  "source": [
+    {
+      "value": "Getty Research Portal"
+    },
+    {
+      "value": "Princeton University Library"
+    }
+  ],
+  "grpContributor": [
+    {
+      "value": "Princeton University Library"
+    }
+  ]
+}
+    ,
+    {
+  "@context": {
+    "source": "http://purl.org/dc/elements/1.1/source",
+    "Person": "http://schema.org/Person",
+    "creator": "http://purl.org/dc/elements/1.1/creator",
+    "Organization": "http://schema.org/Organization",
+    "contributor": "http://purl.org/dc/elements/1.1/contributor",
+    "spatial": "http://purl.org/dc/terms/spatial",
+    "temporal": "http://purl.org/dc/terms/temporal",
+    "coverage": "http://purl.org/dc/elements/1.1/coverage",
+    "issued": "http://purl.org/dc/terms/issued",
+    "date": "http://purl.org/dc/elements/1.1/date",
+    "extent": "http://purl.org/dc/terms/extent",
+    "format": "http://purl.org/dc/elements/1.1/format",
+    "identifier": "http://purl.org/dc/elements/1.1/identifier",
+    "URI": "http://purl.org/dc/terms/URI",
+    "iiif": "http://portal.getty.edu/terms/cicognara/iiif",
+    "hasFormat": "http://purl.org/dc/terms/hasFormat",
+    "cicognaraNumber": "http://portal.getty.edu/terms/cicognara/cicognaraNumber",
+    "dclNumber": "http://portal.getty.edu/terms/cicognara/dclNumber",
+    "language": "http://purl.org/dc/elements/1.1/language",
+    "isPartOf": "http://purl.org/dc/terms/isPartOf",
+    "isReferencedBy": "http://purl.org/dc/terms/isReferencedBy",
+    "relation": "http://purl.org/dc/elements/1.1/relation",
+    "LCSH": "http://purl.org/dc/terms/LCSH",
+    "subject": "http://purl.org/dc/elements/1.1/subject",
+    "title": "http://purl.org/dc/elements/1.1/title",
+    "DCMIType": "http://purl.org/dc/terms/DCMIType",
+    "type": "http://purl.org/dc/elements/1.1/type",
+    "publisher": "http://purl.org/dc/elements/1.1/publisher",
+    "virtualCollection": "http://portal.getty.edu/terms/gri/virtualCollection",
+    "grpContributor": "http://portal.getty.edu/terms/gri/grpContributor"
+  },
+  "@id": "http://portal.getty.edu/books/princeton_9985404473506421",
+  "creator": [
+    {
+      "id": [
+        "http://id.loc.gov/authorities/names/n83142490"
+      ],
+      "@type": "Person",
+      "label": "Lanzi, Luigi, -1810."
+    }
+  ],
+  "contributor": [
+    {
+      "id": [
+        "http://id.loc.gov/authorities/names/nr94016468"
+      ],
+      "@type": "Organization",
+      "label": "Fondo Cicognara (Biblioteca apostolica vaticana)"
+    }
+  ],
+  "spatial": [
+    {
+      "value": "Etruria"
+    },
+    {
+      "value": "Italy"
+    }
+  ],
+  "temporal": [
+    {
+      "value": "1989-"
+    }
+  ],
+  "issued": [
+    {
+      "value": "1789"
+    }
+  ],
+  "date": [
+    {
+      "value": "1989-"
+    }
+  ],
+  "extent": [
+    {
+      "value": "2 v. in 3"
+    },
+    {
+      "value": "22 microfiche : positive."
+    }
+  ],
+  "hasFormat": [
+    {
+      "@type": "iiif",
+      "value": "https://figgy.princeton.edu/concern/scanned_resources/2097f0a4-85d8-45db-a420-259b01c1d674/manifest"
+    }
+  ],
+  "identifier": [
+    {
+      "value": "http://portal.getty.edu/books/princeton_9985404473506421",
+      "@type": "URI"
+    },
+    {
+      "@type": "URI",
+      "value": "http://portal.getty.edu/api/n95r3v"
+    },
+    {
+      "@type": "URI",
+      "value": "http://portal.getty.edu/api/8g5m90"
+    },
+    {
+      "@type": "URI",
+      "value": "http://portal.getty.edu/api/pn1k84"
+    },
+    {
+      "@type": "URI",
+      "value": "http://portal.getty.edu/api/4z337j"
+    },
+    {
+      "@type": "URI",
+      "value": "http://portal.getty.edu/api/jj4b2f"
+    },
+    {
+      "@type": "URI",
+      "value": "http://portal.getty.edu/api/m4183c"
+    },
+    {
+      "@type": "cicognaraNumber",
+      "value": "1789"
+    },
+    {
+      "@type": "dclNumber",
+      "value": "f8c"
+    }
+  ],
+  "language": [
+    {
+      "value": "Italian"
+    }
+  ],
+  "isPartOf": [
+    {
+      "value": "Cicognara library."
+    },
+    {
+      "@type": "virtualCollection",
+      "label": "Cicognara Collection"
+    }
+  ],
+  "isReferencedBy": [
+    {
+      "value": "Cicognara, 1789"
+    }
+  ],
+  "subject": [
+    {
+      "@type": "LCSH",
+      "label": "Etruscan language -- Early works to 1800."
+    },
+    {
+      "@type": "LCSH",
+      "label": "Inscriptions, Etruscan -- Early works to 1800."
+    },
+    {
+      "@type": "LCSH",
+      "label": "Sculpture, Greco-Roman -- Early works to 1800."
+    },
+    {
+      "@type": "LCSH",
+      "label": "Etruria -- Antiquities -- Early works to 1800."
+    },
+    {
+      "@type": "LCSH",
+      "label": "Italy -- Antiquities -- Early works to 1800."
+    }
+  ],
+  "title": [
+    {
+      "value": "Saggio di lingua etrusca e di altre antiche d'Italia [microform] : per servire alla storia de' popoli, delle lingue, e delle belle arti."
+    }
+  ],
+  "type": [
+    {
+      "@type": "DCMIType",
+      "label": "Text"
+    }
+  ],
+  "publisher": [
+    {
+      "value": "In Roma : Nella stamperia Pagliarini"
+    }
+  ],
+  "source": [
+    {
+      "value": "Getty Research Portal"
+    },
+    {
+      "value": "Princeton University Library"
+    }
+  ],
+  "grpContributor": [
+    {
+      "value": "Princeton University Library"
+    }
+  ]
+}
+
+]
