@@ -7,7 +7,7 @@ export default function ResultList({ items = [] }) {
         <div>
             <h2>items</h2>
             {
-                items.map(item => <Item id={item.contributor[0].label} {...item} />)
+                items.map(item => <Item id={item.ids[0].value} {...item} />)
             }
         </div>
     );
