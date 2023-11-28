@@ -55,7 +55,7 @@ function App() {
                     <li key={index}>
                         <div>
                             <h4>{ item.ciconum.join("; ") }</h4>
-                            <dl>
+                            <dl class="compact">
                                 <dt>dclNumber</dt>
                                 <dd>{ item.dclnum.join("; ") } </dd>
 

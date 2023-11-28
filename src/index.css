@@ -66,3 +66,24 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+
+dl.compact {
+    display: grid;
+    grid-template: auto / auto auto;
+    width: fit-content;
+    column-gap: 1em;
+}
+
+dl.compact dt {
+    grid-column-start: 1;
+}
+
+dl.compact dd {
+    grid-column-start: 2;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
