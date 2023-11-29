@@ -11,3 +11,7 @@ It uses an index that is compiled from the Getty records using the
 
 This prototype uses [Vite](https://vitejs.dev) as a framework for running the app; this is just
 for testing and evaluation and does not imply any commitment to Vite or React.
+
+## How do I run it?
+
+``npm run dev``
