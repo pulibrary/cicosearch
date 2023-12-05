@@ -11,16 +11,15 @@ function App() {
         includeScore: true,
         includeMatches: true,
         threshold: 0.2,
-        keys: ["creator",
-               "contributor",
-               "description",
+        keys: ["ciconum",
+               "dclnums",
                "title",
+               "creator",
                "language",
-               "subject",
                "publisher",
-               "source",
-               "ciconum",
-               "dclnum",
+               "issued",
+               "provider",
+               "subjects",
               ],
     };
 
@@ -54,50 +53,31 @@ function App() {
                 {items.slice(0,50).map((item, index) => (
                     <li key={index}>
                         <div>
-                            <h4>{ item.ciconum.join("; ") }</h4>
+                            <h4>{ item.ciconum }</h4>
                             <dl class="compact">
                                 <dt>dclNumber</dt>
-                                <dd>{ item.dclnum.join("; ") } </dd>
+                                <dd>{ item.dclnums.join("; ") } </dd>
+
+                                <dt>title</dt>
+                                <dd>{ item.title}</dd>
 
                                 <dt>creator</dt>
-                                <dd>{ item.creator.join("; ") }</dd>
+                                <dd>{ item.creator}</dd>
                                 
-                                <dt>title</dt>
-                                <dd>{ item.title.join("; ")}</dd>
-
-                                <dt>issued</dt>
-                                <dd>{ item.issued.join("; ") }</dd>
-
-                                <dt>extent</dt>
-                                <dd>{ item.extent.join("; ") }</dd>
-
                                 <dt>language</dt>
-                                <dd>{ item.language.join("; ") }</dd>
-
-                                <dt>is referenced by</dt>
-                                <dd>{ item.isReferencedBy.join("; ") }</dd>
-
-                                <dt>subject</dt>
-                                <dd>{ item.subject.join("; ") }</dd>
+                                <dd>{ item.language }</dd>
 
                                 <dt>publisher</dt>
-                                <dd>{ item.publisher.join("; ") }</dd>
+                                <dd>{ item.publisher }</dd>
 
-                                <dt>source</dt>
-                                <dd>{ item.source.join("; ") }</dd>
+                                <dt>issued</dt>
+                                <dd>{ item.issued }</dd>
 
-                                <dt>collection</dt>
-                                <dd>{ item.isPartOf.join("; ") }</dd>
+                                <dt>provider</dt>
+                                <dd>{ item.provider }</dd>
 
-                                <dt>date</dt>
-                                <dd>{ item.date.join("; ") }</dd>
-
-                                <dt>contributor</dt>
-                                <dd>{ item.contributor.join("; ") }</dd>
-
-                                <dt>description</dt>
-                                <dd>{ item.description.join("; ") }</dd>
-
+                                <dt>subjects</dt>
+                                <dd>{ item.subjects.join("; ") }</dd>
                             </dl>
                         </div>
                     </li>
